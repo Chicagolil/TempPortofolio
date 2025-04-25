@@ -1,0 +1,108 @@
+[
+  {
+    "id": 1,
+    "title": "Apprentissage React & Next.js",
+    "type": "Formation Autodidacte",
+    "realHours": 80,
+    "valuableHours": 60,
+    "imageUrl": "/images/placeholder.jpg",
+    "description": "Cours en ligne, tutoriels et petits projets pour maîtriser React et Next.js.",
+    "fullDescription": "Pendant cette formation autodidacte, j'ai approfondi mes connaissances en React et Next.js à travers de nombreux cours en ligne et projets pratiques. J'ai notamment exploré les concepts avancés comme les hooks, le server-side rendering, et l'optimisation des performances. Cette expérience m'a permis de développer une forte compréhension des applications web modernes.",
+    "images": [
+      {
+        "src": "/images/placeholder.jpg",
+        "alt": "Projet React 1",
+        "title": "Premier projet React"
+      },
+      {
+        "src": "/images/placeholder.jpg",
+        "alt": "Projet Next.js",
+        "title": "Application Next.js"
+      },
+      {
+        "src": "/images/placeholder.jpg",
+        "alt": "Cours en ligne",
+        "title": "Certificat de formation"
+      },
+      {
+        "src": "/images/placeholder.jpg",
+        "alt": "Code source",
+        "title": "Structure du projet"
+      },
+      {
+        "src": "/images/placeholder.jpg",
+        "alt": "Interface utilisateur",
+        "title": "UI du projet final"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Contribution Open Source (Petit Projet)",
+    "type": "Projet Personnel",
+    "realHours": 35,
+    "valuableHours": 25,
+    "imageUrl": "/images/placeholder.jpg",
+    "description": "Correction de bugs et ajout d'une petite fonctionnalité sur un projet GitHub.",
+    "fullDescription": "J'ai participé activement à un projet open source en proposant des correctifs de bugs et en développant une nouvelle fonctionnalité. Cette expérience m'a permis de me familiariser avec le workflow Git, les pull requests, et la collaboration avec d'autres développeurs à travers le monde. J'ai également appris à adapter mon code pour qu'il s'intègre parfaitement dans un projet existant.",
+    "images": [
+      {
+        "src": "/images/placeholder.jpg",
+        "alt": "Pull Request",
+        "title": "Ma première Pull Request"
+      },
+      {
+        "src": "/images/placeholder.jpg",
+        "alt": "Code review",
+        "title": "Discussion de code"
+      },
+      {
+        "src": "/images/placeholder.jpg",
+        "alt": "Fonctionnalité",
+        "title": "Démonstration de la fonctionnalité"
+      },
+      {
+        "src": "/images/placeholder.jpg",
+        "alt": "GitHub",
+        "title": "Statistiques de contribution"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Veille sur l'IA Générative",
+    "type": "Veille Technologique",
+    "realHours": 15,
+    "valuableHours": 10,
+    "imageUrl": "/images/placeholder.jpg",
+    "description": "Lecture d'articles, suivi de conférences et expérimentations basiques.",
+    "fullDescription": "Pour rester à la pointe de la technologie, j'ai réalisé une veille approfondie sur l'IA générative. J'ai étudié les modèles comme GPT, DALL-E et Stable Diffusion, en comprenant leurs principes fondamentaux et leurs applications potentielles. J'ai également expérimenté avec ces technologies pour créer des prototypes simples et explorer leur potentiel dans le développement web.",
+    "images": [
+      {
+        "src": "/images/placeholder.jpg",
+        "alt": "IA Générative",
+        "title": "Expérimentation IA"
+      },
+      {
+        "src": "/images/placeholder.jpg",
+        "alt": "Conférence",
+        "title": "Notes de conférence"
+      },
+      {
+        "src": "/images/placeholder.jpg",
+        "alt": "Prototype",
+        "title": "Prototype utilisant l'IA"
+      },
+      {
+        "src": "/images/placeholder.jpg",
+        "alt": "Recherche",
+        "title": "Synthèse de recherche"
+      },
+      {
+        "src": "/images/placeholder.jpg",
+        "alt": "Application",
+        "title": "Application de concepts d'IA"
+      }
+    ]
+  }
+]
