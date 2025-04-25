@@ -23,11 +23,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
+    <html lang="fr">
+      <body className="overflow-x-hidden relative">
+        <div className="content-wrapper relative z-10">{children}</div>
       </body>
     </html>
   );
