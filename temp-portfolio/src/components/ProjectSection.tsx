@@ -23,8 +23,9 @@ const ProjectSection = () => {
   const projectData = {
     title: "Mon Projet Professionnel",
     description:
-      "Je souhaite me spécialiser dans le développement d'applications web moderne, en particulier dans la création d'interfaces utilisateur réactives et accessibles. Mon objectif est d'intégrer une entreprise innovante où je pourrai continuer à développer mes compétences en React, Next.js et TypeScript, tout en explorant les nouvelles tendances du développement web.",
-    image: "/images/placeholder.jpg",
+      "Mon projet professionnel est de consolider et d'approfondir mes compétences en informatique en poursuivant un master en Sciences informatiques, avec une spécialisation en 'Intelligent Systems'. Mon objectif est d'acquérir une expertise avancée dans des domaines comme l'intelligence artificielle, l'apprentissage automatique et les systèmes intelligents autonomes. À terme, je souhaite intégrer une entreprise innovante où je pourrai contribuer à des projets à forte dimension technologique, en combinant programmation, analyse de données et conception de solutions intelligentes. Cette trajectoire professionnelle me permettra de participer activement à la transformation numérique actuelle, tout en développant mes capacités d'innovation et de gestion de projets complexes.",
+    image: "/images/pageAccueil/proProjet.jpg",
+
     pointsForts: [
       "Maîtrise des frameworks React et Next.js",
       "Bonne compréhension des principes d'accessibilité web",

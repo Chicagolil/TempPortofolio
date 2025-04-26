@@ -8,13 +8,12 @@ export default function LandingPage() {
     <>
       <main className="flex min-h-screen flex-col items-center justify-center p-24">
         <ParticleBackground />
-        <div className="z-10  p-8 ">
-          <Link href="/portfolio" aria-label="Accéder au portfolio">
-            <div className="h-[40rem] flex items-center justify-center">
-              <TextHoverEffect text="Entrer" />
-            </div>
-          </Link>
-        </div>
+
+        <Link href="/portfolio" aria-label="Accéder au portfolio">
+          <div className="h-[40rem] flex items-center justify-center">
+            <TextHoverEffect text="Entrer" />
+          </div>
+        </Link>
       </main>
     </>
   );

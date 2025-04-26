@@ -7,7 +7,7 @@
     "valuableHours": 10,
     "imageUrl": "/images/apprenezLesBasesDePython/4.png",
     "description": "Cours Open Classroom, en vue de maîtriser Python",
-    "fullDescription": "Pendant cette formation autodidacte, j'ai approfondi mes connaissances en React et Next.js à travers de nombreux cours en ligne et projets pratiques. J'ai notamment exploré les concepts avancés comme les hooks, le server-side rendering, et l'optimisation des performances. Cette expérience m'a permis de développer une forte compréhension des applications web modernes.",
+    "fullDescription": "J'ai suivi une formation en ligne sur OpenClassrooms pour apprendre les bases de Python. Cette opportunité m'a permis d'acquérir une solide compréhension des fondements de la programmation, tels que les variables, les structures conditionnelles, les boucles et la manipulation de fichiers. En travaillant sur des exercices pratiques, j'ai renforcé ma logique algorithmique et mon autonomie dans la résolution de problèmes. Cet apprentissage s'inscrit parfaitement dans mon projet professionnel, car la maîtrise de Python est un atout majeur pour le développement d'applications, l'analyse de données et l'automatisation de tâches en entreprise. Cette expérience a enrichi mon profil polyvalent recherché sur le marché de l'emploi.",
     "images": [
       {
         "src": "/images/apprenezLesBasesDePython/1.png",
@@ -40,7 +40,7 @@
     "valuableHours": 10,
     "imageUrl": "/images/cyberSecurityChallenge/3.png",
     "description": "Participation à un événement de capture du drapeau (CTF) en équipe.",
-    "fullDescription": "J'ai participé activement à un projet open source en proposant des correctifs de bugs et en développant une nouvelle fonctionnalité. Cette expérience m'a permis de me familiariser avec le workflow Git, les pull requests, et la collaboration avec d'autres développeurs à travers le monde. J'ai également appris à adapter mon code pour qu'il s'intègre parfaitement dans un projet existant.",
+    "fullDescription": "J'ai participé au Cyber Security Challenge Belgium 2024, un hackathon intense de type Capture The Flag (CTF) en équipe. Cet événement m'a plongé dans des défis concrets de cybersécurité : exploitation de failles, cryptographie, forensic, et reverse engineering. J'ai pu mettre en pratique mes compétences techniques tout en développant mon esprit d'équipe et ma gestion du stress. Cette expérience m'a conforté dans l'idée que la cybersécurité est un domaine qui me passionne et que je souhaite approfondir dans mon futur professionnel. Participer à un tel événement m'a aussi permis de comprendre les attentes du marché du travail en matière de sécurité informatique.",
     "images": [
       {
         "src": "/images/cyberSecurityChallenge/1.png",
@@ -54,13 +54,13 @@
       },
       {
         "src": "/images/cyberSecurityChallenge/3.png",
-        "alt": "Fonctionnalité",
-        "title": "Démonstration de la fonctionnalité"
+        "alt": "Cyber Security Challenge 2024",
+        "title": "Cyber Security Challenge 2024"
       },
       {
         "src": "/images/cyberSecurityChallenge/4.jpg",
-        "alt": "GitHub",
-        "title": "Statistiques de contribution"
+        "alt": "Photo de l'événement",
+        "title": "Photo de l'événement"
       }
     ]
   },
@@ -72,27 +72,27 @@
     "valuableHours": 9.75,
     "imageUrl": "/images/tutorat/1.jpg",
     "description": "Tutorat de Mathématiques pour des élèves de l'ephec",
-    "fullDescription": "Pour rester à la pointe de la technologie, j'ai réalisé une veille approfondie sur l'IA générative. J'ai étudié les modèles comme GPT, DALL-E et Stable Diffusion, en comprenant leurs principes fondamentaux et leurs applications potentielles. J'ai également expérimenté avec ces technologies pour créer des prototypes simples et explorer leur potentiel dans le développement web.",
+    "fullDescription": "J'ai eu l'opportunité d'assurer du tutorat en mathématiques pour des étudiants de l'EPHEC. Cette expérience a été extrêmement enrichissante, car elle m'a permis de consolider mes propres compétences tout en apprenant à vulgariser des concepts complexes. J'ai amélioré ma capacité à écouter, à diagnostiquer les difficultés rencontrées par les étudiants, et à adapter mes explications en fonction de leurs besoins. Cette activité a directement contribué à renforcer mes compétences en communication, indispensables dans le milieu professionnel, notamment pour travailler efficacement en équipe ou pour expliquer des concepts techniques à des non-spécialistes.",
     "images": [
       {
         "src": "/images/tutorat/2.png",
-        "alt": "IA Générative",
-        "title": "Expérimentation IA"
+        "alt": "Attestation de tutorat",
+        "title": "Mon Attestation de tutorat"
       },
       {
         "src": "/images/tutorat/3.png",
-        "alt": "Conférence",
-        "title": "Notes de conférence"
+        "alt": "Prestations",
+        "title": "Toutes mes prestations de tutorat"
       },
       {
         "src": "/images/tutorat/4.png",
-        "alt": "Prototype",
-        "title": "Prototype utilisant l'IA"
+        "alt": "Offre de tutorat",
+        "title": "Mes offres de tutorat en Anglais et Mathématiques"
       },
       {
         "src": "/images/tutorat/1.jpg",
-        "alt": "Recherche",
-        "title": "Synthèse de recherche"
+        "alt": "Professeur",
+        "title": "Professeur"
       }
     ]
   },
@@ -104,7 +104,7 @@
     "valuableHours": 10,
     "imageUrl": "/images/portfolioThreeJS/3.png",
     "description": "Création de mon portfolio en THREE.JS",
-    "fullDescription": "Pour rester à la pointe de la technologie, j'ai réalisé une veille approfondie sur l'IA générative. J'ai étudié les modèles comme GPT, DALL-E et Stable Diffusion, en comprenant leurs principes fondamentaux et leurs applications potentielles. J'ai également expérimenté avec ces technologies pour créer des prototypes simples et explorer leur potentiel dans le développement web.",
+    "fullDescription": "Dans le cadre de mon projet personnel, j'ai entrepris de créer mon portfolio interactif en utilisant Three.js et Blender. Ce travail m'a permis de développer mes compétences en modélisation 3D, en programmation WebGL et en animation d'objets 3D. J'ai suivi la formation Three.js Journey de Bruno Simon pour maîtriser cette technologie complexe. Cette expérience a été l'occasion pour moi de renforcer ma rigueur technique et ma capacité à mener un projet créatif de bout en bout. Mon portfolio est non seulement une vitrine de mes compétences, mais aussi une démonstration concrète de ma capacité à apprendre de nouvelles technologies de manière autonome.",
     "images": [
       {
         "src": "/images/portfolioThreeJS/1.png",
@@ -124,39 +124,39 @@
       {
         "src": "/images/portfolioThreeJS/4.png",
         "alt": "Formation ThreeJS",
-        "title": "ThreeJS Journey: Formation en ligne crée par Bruno Simon"
+        "title": "ThreeJS Journey: Formation en ligne crée par Bruno Simon que je suis pour créer mon portfolio"
       }
     ]
   },
   {
     "id": 5,
-    "title": "Apprentissage Modélisation 3D & Mise en Pratique",
+    "title": "Modélisation 3D",
     "type": "Modélisation 3D",
     "realHours": 400,
     "valuableHours": 10,
     "imageUrl": "/images/apprBlender/2.png",
-    "description": "Création de mon portfolio en THREE.JS",
-    "fullDescription": "Pour rester à la pointe de la technologie, j'ai réalisé une veille approfondie sur l'IA générative. J'ai étudié les modèles comme GPT, DALL-E et Stable Diffusion, en comprenant leurs principes fondamentaux et leurs applications potentielles. J'ai également expérimenté avec ces technologies pour créer des prototypes simples et explorer leur potentiel dans le développement web.",
+    "description": "Apprentissage & Mise en Pratique de la Modélisation 3D",
+    "fullDescription": "Pour développer mes compétences en modélisation 3D, j'ai suivi plusieurs formations sur Blender et réalisé de nombreux projets personnels. Cette activité m'a appris à créer des modèles, à texturer, à gérer l'éclairage et à rendre des scènes réalistes. Au-delà de l'aspect technique, cet apprentissage m'a également permis de travailler ma patience, ma précision et ma sensibilité artistique. Dans le cadre de mon projet professionnel, ces compétences me permettent d'envisager des applications dans la création d'environnements virtuels, le développement de jeux vidéo ou la conception de contenus interactifs.",
     "images": [
       {
         "src": "/images/apprBlender/3.png",
-        "alt": "IA Générative",
-        "title": "Expérimentation IA"
+        "alt": "Rendu 3D",
+        "title": "L'un de mes premiers rendu sans suivre de tuto"
       },
       {
         "src": "/images/apprBlender/2.png",
-        "alt": "Conférence",
-        "title": "Notes de conférence"
+        "alt": "Rendu 3D",
+        "title": "Un autre rendu 3D dont je suis fier"
       },
       {
         "src": "/images/apprBlender/5.png",
-        "alt": "Prototype",
-        "title": "Prototype utilisant l'IA"
+        "alt": "Formation Blender",
+        "title": "Une des nombreuses formations que j'ai suivies pour apprendre Blender"
       },
       {
         "src": "/images/apprBlender/4.png",
         "alt": "Recherche",
-        "title": "Synthèse de recherche"
+        "title": "Scène en cours de création, j'en suis à la l'étape de la modélisation"
       }
     ]
   }

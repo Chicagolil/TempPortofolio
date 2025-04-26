@@ -200,7 +200,7 @@ const CvSection = () => {
 
           {/* Compétences */}
           <motion.div
-            className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 border border-gray-200 dark:border-gray-700 hover:shadow-xl transition-shadow duration-300"
+            className="bg-white dark:bg-gray-800 rounded-xl shadow-xl p-6 border border-gray-200 dark:border-gray-700 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 relative before:absolute before:inset-0 before:rounded-xl before:shadow-[inset_0_1px_2px_rgba(255,255,255,0.9)] dark:before:shadow-[inset_0_1px_1px_rgba(255,255,255,0.1)]"
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -238,14 +238,21 @@ const CvSection = () => {
                 return (
                   <motion.div
                     key={index}
-                    className={`border-l-2 ${currentColor.border} pl-4 py-2`}
+                    className={`border-l-2 ${
+                      currentColor.border
+                    } pl-4 py-2 relative after:absolute after:w-[3px] after:h-full after:top-0 after:left-[-2px] after:opacity-50 after:blur-[2px] after:${currentColor.border.replace(
+                      "border-",
+                      "bg-"
+                    )}`}
                     initial={{ opacity: 0, x: -10 }}
                     whileInView={{ opacity: 1, x: 0 }}
                     viewport={{ once: true }}
                     transition={{ duration: 0.4, delay: 0.1 * index }}
                   >
                     <div className="flex items-center gap-2 mb-2">
-                      <div className={currentColor.icon}>{group.icon}</div>
+                      <div className={`${currentColor.icon} drop-shadow-md`}>
+                        {group.icon}
+                      </div>
                       <h4 className="text-lg font-medium text-gray-900 dark:text-white">
                         {group.title}
                       </h4>
@@ -254,7 +261,7 @@ const CvSection = () => {
                       {group.skills.map((skill, skillIndex) => (
                         <span
                           key={skillIndex}
-                          className={`px-3 py-1 bg-white dark:bg-gray-800 ${currentColor.badge} rounded-lg text-sm border transition-all duration-300 hover:text-white hover:scale-105 hover:shadow-md cursor-default`}
+                          className={`px-3 py-1 bg-white dark:bg-gray-800 ${currentColor.badge} rounded-lg text-sm border transition-all duration-300 hover:text-white hover:scale-105 hover:shadow-md cursor-default relative transform hover:-translate-y-0.5 shadow-[0_2px_5px_rgba(0,0,0,0.05)] dark:shadow-[0_2px_5px_rgba(0,0,0,0.2)]`}
                         >
                           {skill}
                         </span>
@@ -268,7 +275,7 @@ const CvSection = () => {
 
           {/* Expériences */}
           <motion.div
-            className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 border border-gray-200 dark:border-gray-700 hover:shadow-xl transition-shadow duration-300"
+            className="bg-white dark:bg-gray-800 rounded-xl shadow-xl p-6 border border-gray-200 dark:border-gray-700 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 relative before:absolute before:inset-0 before:rounded-xl before:shadow-[inset_0_1px_2px_rgba(255,255,255,0.9)] dark:before:shadow-[inset_0_1px_1px_rgba(255,255,255,0.1)]"
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -279,9 +286,13 @@ const CvSection = () => {
             </h3>
             <div className="space-y-6">
               {experiences.map((exp, index) => (
-                <div
+                <motion.div
                   key={index}
-                  className="border-l-2 border-blue-500 pl-4 py-1"
+                  className="border-l-2 border-blue-500 pl-4 py-2 relative after:absolute after:w-[3px] after:h-full after:top-0 after:left-[-2px] after:opacity-50 after:blur-[2px] after:bg-blue-500"
+                  initial={{ opacity: 0, x: -10 }}
+                  whileInView={{ opacity: 1, x: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.4, delay: 0.1 * index }}
                 >
                   <h4 className="text-lg font-medium text-gray-900 dark:text-white">
                     {exp.title}
@@ -292,17 +303,17 @@ const CvSection = () => {
                   <p className="text-sm text-gray-500 dark:text-gray-400 mb-2">
                     {exp.period}
                   </p>
-                  <p className="text-gray-600 dark:text-gray-300">
+                  <p className="text-gray-600 dark:text-gray-300 shadow-[0_2px_5px_rgba(0,0,0,0.03)] dark:shadow-[0_2px_5px_rgba(0,0,0,0.1)] p-2 bg-gray-50 dark:bg-gray-850 rounded-md transition-all duration-300 hover:shadow-md hover:scale-[1.01] hover:-translate-y-0.5">
                     {exp.description}
                   </p>
-                </div>
+                </motion.div>
               ))}
             </div>
           </motion.div>
 
           {/* Éducation */}
           <motion.div
-            className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 border border-gray-200 dark:border-gray-700 hover:shadow-xl transition-shadow duration-300"
+            className="bg-white dark:bg-gray-800 rounded-xl shadow-xl p-6 border border-gray-200 dark:border-gray-700 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 relative before:absolute before:inset-0 before:rounded-xl before:shadow-[inset_0_1px_2px_rgba(255,255,255,0.9)] dark:before:shadow-[inset_0_1px_1px_rgba(255,255,255,0.1)]"
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -313,9 +324,13 @@ const CvSection = () => {
             </h3>
             <div className="space-y-6">
               {education.map((edu, index) => (
-                <div
+                <motion.div
                   key={index}
-                  className="border-l-2 border-purple-500 pl-4 py-1"
+                  className="border-l-2 border-purple-500 pl-4 py-2 relative after:absolute after:w-[3px] after:h-full after:top-0 after:left-[-2px] after:opacity-50 after:blur-[2px] after:bg-purple-500"
+                  initial={{ opacity: 0, x: -10 }}
+                  whileInView={{ opacity: 1, x: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.4, delay: 0.1 * index }}
                 >
                   <h4 className="text-lg font-medium text-gray-900 dark:text-white">
                     {edu.degree}
@@ -326,10 +341,10 @@ const CvSection = () => {
                   <p className="text-sm text-gray-500 dark:text-gray-400 mb-2">
                     {edu.period}
                   </p>
-                  <p className="text-gray-600 dark:text-gray-300">
+                  <p className="text-gray-600 dark:text-gray-300 shadow-[0_2px_5px_rgba(0,0,0,0.03)] dark:shadow-[0_2px_5px_rgba(0,0,0,0.1)] p-2 bg-gray-50 dark:bg-gray-850 rounded-md transition-all duration-300 hover:shadow-md hover:scale-[1.01] hover:-translate-y-0.5">
                     {edu.description}
                   </p>
-                </div>
+                </motion.div>
               ))}
             </div>
           </motion.div>

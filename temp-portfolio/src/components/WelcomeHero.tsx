@@ -116,7 +116,7 @@ const WelcomeHero = () => {
           {/* Image ou avatar */}
           <motion.div
             className="relative w-64 h-64 md:w-80 md:h-80"
-            initial={{ opacity: 0, scale: 0.8 }}
+            initial={{ opacity: 0, scale: 0.6 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8, delay: 0.5 }}
           >
@@ -124,7 +124,7 @@ const WelcomeHero = () => {
             <div className="relative w-full h-full rounded-full overflow-hidden border-4 border-white/20 shadow-xl">
               {/* Remplacez par votre photo de profil */}
               <Image
-                src="/images/placeholder.jpg"
+                src="/images/pageAccueil/chillMorty.jpg"
                 alt="Lilian Devroye"
                 fill
                 className="object-cover"
