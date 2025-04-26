@@ -19,9 +19,16 @@ const ActivitiesSection = () => {
   return (
     <section id="activites" className="py-12 px-4 bg-gray-50 dark:bg-gray-950">
       <div className="container mx-auto">
-        <h2 className="text-3xl font-bold text-center mb-12">
-          Activités d'Acquisition
+        <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">
+          Mes{" "}
+          <span className="text-emerald-600 dark:text-emerald-400">
+            Activités d'Acquisition
+          </span>
         </h2>
+        <p className="text-gray-600 dark:text-gray-300 max-w-2xl mx-auto text-center mb-12">
+          Découvrez les différentes activités que j'ai réalisées durant mon
+          parcours et les compétences acquises à travers ces expériences.
+        </p>
 
         {/* Grille de cartes */}
         <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 justify-items-center mb-16">
