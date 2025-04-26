@@ -31,7 +31,7 @@ const ActivitiesSection = () => {
         </p>
 
         {/* Grille de cartes */}
-        <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 justify-items-center mb-16">
+        <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-24 justify-items-center mb-16">
           {activitiesData.map((activity) => (
             <Link
               href={`/portfolio/activite/${activity.id}`}

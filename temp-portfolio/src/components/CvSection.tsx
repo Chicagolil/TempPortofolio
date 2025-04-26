@@ -68,14 +68,7 @@ const CvSection = () => {
     },
     {
       title: "Outils & Méthodes",
-      skills: [
-        "Git",
-        "GitHub",
-        "VS Code",
-        "Agile",
-        "Figma",
-        "Responsive Design",
-      ],
+      skills: ["Git", "GitHub", "VS Code", "Agile", "UX/UI Design"],
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -96,11 +89,11 @@ const CvSection = () => {
   // Expériences professionnelles
   const experiences = [
     {
-      title: "Développeur Front-end",
-      company: "Entreprise XYZ",
-      period: "2022 - Présent",
+      title: "Stage en Développement Full Stack",
+      company: "Capsule Corp.",
+      period: "2025 - 2025",
       description:
-        "Développement d'applications web avec React et Next.js. Amélioration de l'expérience utilisateur et optimisation des performances.",
+        "Développement d'application web de gestion Immobilière avec React, Redux, TypeORM, Node.js, Express, SQL.",
     },
     {
       title: "Stagiaire Développeur",
@@ -114,11 +107,22 @@ const CvSection = () => {
   // Formation académique
   const education = [
     {
-      degree: "Bachelier en Informatique",
+      degree: "Bachelier en Technologies de l'Informaique",
       institution: "EPHEC",
-      period: "2021 - 2024",
-      description:
-        "Spécialisation en développement d'applications web et mobiles.",
+      period: "2022 - Présent",
+      description: "Louvain-la-Neuve, Belgique",
+    },
+    {
+      degree: "Bachelier en architecture",
+      institution: "U-Liège",
+      period: "2020 - 2022",
+      description: "Liège, Belgique",
+    },
+    {
+      degree: "CESS option Sciences/Math + Immersion Anglais",
+      institution: "Institut Sainte Marie d'Arlon",
+      period: "2014 - 2020",
+      description: "Arlon, Belgique",
     },
   ];
 
@@ -240,7 +244,7 @@ const CvSection = () => {
                     key={index}
                     className={`border-l-2 ${
                       currentColor.border
-                    } pl-4 py-2 relative after:absolute after:w-[3px] after:h-full after:top-0 after:left-[-2px] after:opacity-50 after:blur-[2px] after:${currentColor.border.replace(
+                    } pl-4 py-2 relative  after:w-[3px] after:h-full after:top-0 after:left-[-2px] after:opacity-50 after:blur-[2px] after:${currentColor.border.replace(
                       "border-",
                       "bg-"
                     )}`}
@@ -288,7 +292,7 @@ const CvSection = () => {
               {experiences.map((exp, index) => (
                 <motion.div
                   key={index}
-                  className="border-l-2 border-blue-500 pl-4 py-2 relative after:absolute after:w-[3px] after:h-full after:top-0 after:left-[-2px] after:opacity-50 after:blur-[2px] after:bg-blue-500"
+                  className="border-l-2 border-blue-500 pl-4 py-2 relative  after:w-[3px] after:h-full after:top-0 after:left-[-2px] after:opacity-50 after:blur-[2px] after:bg-blue-500"
                   initial={{ opacity: 0, x: -10 }}
                   whileInView={{ opacity: 1, x: 0 }}
                   viewport={{ once: true }}
@@ -326,7 +330,7 @@ const CvSection = () => {
               {education.map((edu, index) => (
                 <motion.div
                   key={index}
-                  className="border-l-2 border-purple-500 pl-4 py-2 relative after:absolute after:w-[3px] after:h-full after:top-0 after:left-[-2px] after:opacity-50 after:blur-[2px] after:bg-purple-500"
+                  className="border-l-2 border-purple-500 pl-4 py-2 relative  after:w-[3px] after:h-full after:top-0 after:left-[-2px] after:opacity-50 after:blur-[2px] after:bg-purple-500"
                   initial={{ opacity: 0, x: -10 }}
                   whileInView={{ opacity: 1, x: 0 }}
                   viewport={{ once: true }}
