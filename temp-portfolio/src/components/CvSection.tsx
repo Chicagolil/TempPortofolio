@@ -15,15 +15,82 @@ const CvSection = () => {
   };
 
   // Liste des compétences
-  const skills = [
-    { name: "HTML/CSS", level: 90 },
-    { name: "JavaScript", level: 85 },
-    { name: "React", level: 80 },
-    { name: "Next.js", level: 75 },
-    { name: "Node.js", level: 70 },
-    { name: "Git", level: 85 },
-    { name: "TypeScript", level: 75 },
-    { name: "Tailwind CSS", level: 80 },
+  const skillGroups = [
+    {
+      title: "Développement Front-End",
+      skills: [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "React",
+        "Next.js",
+        "Tailwind CSS",
+      ],
+      icon: (
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          className="w-6 h-6"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        >
+          <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+          <line x1="3" y1="9" x2="21" y2="9"></line>
+          <line x1="9" y1="21" x2="9" y2="9"></line>
+        </svg>
+      ),
+    },
+    {
+      title: "Développement Back-End",
+      skills: ["Node.js", "Express", "MongoDB", "REST API", "SQL"],
+      icon: (
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          className="w-6 h-6"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        >
+          <path d="M18 10h-4v4h4v-4z"></path>
+          <path d="M14 4v4h4V4h-4z"></path>
+          <path d="M4 20h4v-4H4v4z"></path>
+          <path d="M4 10h4V6H4v4z"></path>
+          <path d="M14 20v-4h-4v4h4z"></path>
+          <path d="M10 14v-4H6v4h4z"></path>
+        </svg>
+      ),
+    },
+    {
+      title: "Outils & Méthodes",
+      skills: [
+        "Git",
+        "GitHub",
+        "VS Code",
+        "Agile",
+        "Figma",
+        "Responsive Design",
+      ],
+      icon: (
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          className="w-6 h-6"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        >
+          <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
+        </svg>
+      ),
+    },
   ];
 
   // Expériences professionnelles
@@ -140,30 +207,62 @@ const CvSection = () => {
             transition={{ duration: 0.5, delay: 0.2 }}
           >
             <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-6">
-              Compétences
+              Compétences Techniques
             </h3>
-            <div className="space-y-4">
-              {skills.map((skill, index) => (
-                <div key={index} className="space-y-2">
-                  <div className="flex justify-between items-center">
-                    <span className="text-gray-700 dark:text-gray-300">
-                      {skill.name}
-                    </span>
-                    <span className="text-sm text-gray-500 dark:text-gray-400">
-                      {skill.level}%
-                    </span>
-                  </div>
-                  <div className="w-full h-2 bg-gray-200 dark:bg-gray-700 rounded-full overflow-hidden">
-                    <motion.div
-                      className="h-full bg-gradient-to-r from-blue-500 to-blue-600 rounded-full"
-                      initial={{ width: 0 }}
-                      whileInView={{ width: `${skill.level}%` }}
-                      viewport={{ once: true }}
-                      transition={{ duration: 1, delay: 0.1 * index }}
-                    ></motion.div>
-                  </div>
-                </div>
-              ))}
+            <div className="space-y-6">
+              {skillGroups.map((group, index) => {
+                // Attribuer une couleur différente à chaque groupe
+                const colors = [
+                  {
+                    border: "border-purple-500",
+                    icon: "text-purple-500 dark:text-purple-400",
+                    badge:
+                      "text-purple-600 dark:text-purple-300 border-purple-100 dark:border-purple-800/30 hover:bg-purple-500 dark:hover:bg-purple-600",
+                  },
+                  {
+                    border: "border-emerald-500",
+                    icon: "text-emerald-500 dark:text-emerald-400",
+                    badge:
+                      "text-emerald-600 dark:text-emerald-300 border-emerald-100 dark:border-emerald-800/30 hover:bg-emerald-500 dark:hover:bg-emerald-600",
+                  },
+                  {
+                    border: "border-amber-500",
+                    icon: "text-amber-500 dark:text-amber-400",
+                    badge:
+                      "text-amber-600 dark:text-amber-300 border-amber-100 dark:border-amber-800/30 hover:bg-amber-500 dark:hover:bg-amber-600",
+                  },
+                ];
+
+                const currentColor = colors[index % colors.length];
+
+                return (
+                  <motion.div
+                    key={index}
+                    className={`border-l-2 ${currentColor.border} pl-4 py-2`}
+                    initial={{ opacity: 0, x: -10 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ duration: 0.4, delay: 0.1 * index }}
+                  >
+                    <div className="flex items-center gap-2 mb-2">
+                      <div className={currentColor.icon}>{group.icon}</div>
+                      <h4 className="text-lg font-medium text-gray-900 dark:text-white">
+                        {group.title}
+                      </h4>
+                    </div>
+                    <div className="flex flex-wrap gap-2 mt-3">
+                      {group.skills.map((skill, skillIndex) => (
+                        <span
+                          key={skillIndex}
+                          className={`px-3 py-1 bg-white dark:bg-gray-800 ${currentColor.badge} rounded-lg text-sm border transition-all duration-300 hover:text-white hover:scale-105 hover:shadow-md cursor-default`}
+                        >
+                          {skill}
+                        </span>
+                      ))}
+                    </div>
+                  </motion.div>
+                );
+              })}
             </div>
           </motion.div>
 

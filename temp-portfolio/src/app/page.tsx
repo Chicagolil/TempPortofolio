@@ -1,16 +1,21 @@
 import Link from "next/link";
 import { TextHoverEffect } from "@/components/ui/text-hover-effect";
+import ParticleBackground from "@/components/ui/particle-background";
 
 export default function LandingPage() {
   return (
     // Conteneur pleine page, centré
-
-    <div className="flex items-center justify-center min-h-screen bg-gradient-to-br from-gray-900 to-gray-800 text-white">
-      <Link href="/portfolio" aria-label="Accéder au portfolio">
-        <div className="h-[40rem]  flex items-center justify-center">
-          <TextHoverEffect text="Entrer" />
+    <>
+      <main className="flex min-h-screen flex-col items-center justify-center p-24">
+        <ParticleBackground />
+        <div className="z-10  p-8 ">
+          <Link href="/portfolio" aria-label="Accéder au portfolio">
+            <div className="h-[40rem] flex items-center justify-center">
+              <TextHoverEffect text="Entrer" />
+            </div>
+          </Link>
         </div>
-      </Link>
-    </div>
+      </main>
+    </>
   );
 }
