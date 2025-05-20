@@ -102,27 +102,27 @@
     "type": "Développement Web",
     "realHours": 100,
     "valuableHours": 10,
-    "imageUrl": "/images/portfolioThreeJS/3.png",
+    "imageUrl": "/images/portFolioThreeJS/3.png",
     "description": "Création de mon portfolio en THREE.JS",
     "fullDescription": "Dans le cadre de mon projet personnel, j'ai entrepris de créer mon portfolio interactif en utilisant Three.js et Blender. Ce travail m'a permis de développer mes compétences en modélisation 3D, en programmation WebGL et en animation d'objets 3D. J'ai suivi la formation Three.js Journey de Bruno Simon pour maîtriser cette technologie complexe. Cette expérience a été l'occasion pour moi de renforcer ma rigueur technique et ma capacité à mener un projet créatif de bout en bout. Mon portfolio est non seulement une vitrine de mes compétences, mais aussi une démonstration concrète de ma capacité à apprendre de nouvelles technologies de manière autonome.",
     "images": [
       {
-        "src": "/images/portfolioThreeJS/1.png",
+        "src": "/images/portFolioThreeJS/1.png",
         "alt": "Modèles",
         "title": "Voici les modèles 3D que j'ai créé pour mon portfolio, fait avec Blender. Il va y en avoir plus au fur et à mesure de l'avancement du projet."
       },
       {
-        "src": "/images/portfolioThreeJS/2.jpg",
+        "src": "/images/portFolioThreeJS/2.jpg",
         "alt": "Travail en cours",
         "title": "Le portfolio n'est pas encore disponible"
       },
       {
-        "src": "/images/portfolioThreeJS/3.png",
+        "src": "/images/portFolioThreeJS/3.png",
         "alt": "Prototype",
         "title": "Blender Et ThreeJS, les deux outils principaux du portfolio"
       },
       {
-        "src": "/images/portfolioThreeJS/4.png",
+        "src": "/images/portFolioThreeJS/4.png",
         "alt": "Formation ThreeJS",
         "title": "ThreeJS Journey: Formation en ligne crée par Bruno Simon que je suis pour créer mon portfolio"
       }
