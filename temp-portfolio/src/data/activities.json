@@ -132,7 +132,7 @@
     "id": 5,
     "title": "Modélisation 3D",
     "type": "Modélisation 3D",
-    "realHours": 12.5,
+    "realHours": 400,
     "valuableHours": 10,
     "imageUrl": "/images/apprBlender/2.png",
     "description": "Apprentissage & Mise en Pratique de la Modélisation 3D",
@@ -164,7 +164,7 @@
     "id": 6,
     "title": "Webinaires : Cybersécurité & IA pour la gestion de projet",
     "type": "Webinaires",
-    "realHours": 40,
+    "realHours": 13,
     "valuableHours": 10,
     "imageUrl": "/images/webinaires/1.png",
     "description": "Webinaires spécialisés en cybersécurité et intelligence artificielle",
@@ -172,23 +172,23 @@
     "images": [
       {
         "src": "/images/webinaires/1.png",
-        "alt": "Webinaire cybersécurité",
-        "title": "Webinaires"
+        "alt": "Webinaire",
+        "title": "Webinaire"
       },
       {
         "src": "/images/webinaires/2.png",
-        "alt": "Webinaire cybersécurité",
-        "title": "Webinaire sur les vulnérabilités des applications web et la prévention des cybermenaces"
+        "alt": "Webinaire",
+        "title": "Les Webinaires aux quels j'ai assisté"
       },
       {
         "src": "/images/webinaires/3.png",
-        "alt": "Webinaire IA",
-        "title": "Présentation sur l’exploitation de l’IA pour la rétro-documentation de modules Salesforce"
+        "alt": "Webinaire",
+        "title": "Les Webinaires aux quels j'ai assisté"
       },
       {
         "src": "/images/webinaires/4.png",
-        "alt": "Webinaire gestion de projet",
-        "title": "Webinaire sur l’usage de l’IA pour structurer les exigences dans les projets IT"
+        "alt": "Webinaire",
+        "title": "Les Webinaires aux quels j'ai assisté"
       }
     ]
   }

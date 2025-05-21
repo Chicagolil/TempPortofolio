@@ -12,12 +12,10 @@ const Navbar = () => {
   useEffect(() => {
     const handleScroll = () => {
       const isScrolled = window.scrollY > 20;
-      console.log(isScrolled);
       if (isScrolled !== scrolled) {
         setScrolled(isScrolled);
       }
     };
-    console.log(scrolled);
 
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
