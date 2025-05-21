@@ -132,7 +132,7 @@
     "id": 5,
     "title": "Modélisation 3D",
     "type": "Modélisation 3D",
-    "realHours": 400,
+    "realHours": 12.5,
     "valuableHours": 10,
     "imageUrl": "/images/apprBlender/2.png",
     "description": "Apprentissage & Mise en Pratique de la Modélisation 3D",
@@ -157,6 +157,38 @@
         "src": "/images/apprBlender/4.png",
         "alt": "Recherche",
         "title": "Scène en cours de création, j'en suis à la l'étape de la modélisation"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Webinaires : Cybersécurité & IA pour la gestion de projet",
+    "type": "Webinaires",
+    "realHours": 40,
+    "valuableHours": 10,
+    "imageUrl": "/images/webinaires/1.png",
+    "description": "Webinaires spécialisés en cybersécurité et intelligence artificielle",
+    "fullDescription": "Dans le cadre de ma veille technologique, j’ai assisté à plusieurs webinaires techniques portant principalement sur deux domaines stratégiques : la cybersécurité et l’intelligence artificielle appliquée à la gestion de projet. Côté cybersécurité, les sessions m'ont permis de mieux comprendre les vulnérabilités des systèmes d'information, les méthodes de détection d’intrusion (NDR), les risques liés aux mots de passe, les attaques sur les DNS, et les obligations liées à la directive NIS2. En parallèle, j’ai suivi des présentations sur l’usage de l’IA pour automatiser des tâches, documenter des projets IT, et structurer les exigences fonctionnelles. Ces webinaires m'ont permis de renforcer mes connaissances théoriques et d'alimenter mes projets personnels avec des pratiques actuelles du terrain.",
+    "images": [
+      {
+        "src": "/images/webinaires/1.png",
+        "alt": "Webinaire cybersécurité",
+        "title": "Webinaires"
+      },
+      {
+        "src": "/images/webinaires/2.png",
+        "alt": "Webinaire cybersécurité",
+        "title": "Webinaire sur les vulnérabilités des applications web et la prévention des cybermenaces"
+      },
+      {
+        "src": "/images/webinaires/3.png",
+        "alt": "Webinaire IA",
+        "title": "Présentation sur l’exploitation de l’IA pour la rétro-documentation de modules Salesforce"
+      },
+      {
+        "src": "/images/webinaires/4.png",
+        "alt": "Webinaire gestion de projet",
+        "title": "Webinaire sur l’usage de l’IA pour structurer les exigences dans les projets IT"
       }
     ]
   }

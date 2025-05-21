@@ -96,11 +96,11 @@ const CvSection = () => {
         "Développement d'application web de gestion Immobilière avec React, Redux, TypeORM, Node.js, Express, SQL.",
     },
     {
-      title: "Stagiaire Développeur",
-      company: "Startup ABC",
-      period: "2021 - 2022",
+      title: "Livreur",
+      company: "WeDely (équivalent Deliveroo/Uber Eats)",
+      period: "été 2022",
       description:
-        "Mise en place d'une interface utilisateur réactive, collaboration avec l'équipe de design, et implémentation de fonctionnalités.",
+        "Livraison de repas à domicile pour des particuliers et entreprises via l'application mobile WeDely.",
     },
   ];
 

@@ -76,7 +76,7 @@ const WelcomeHero = () => {
             >
               Bienvenue sur mon{" "}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500">
-                Portfolio Temporaire
+                Portfolio
               </span>
             </motion.h1>
 
